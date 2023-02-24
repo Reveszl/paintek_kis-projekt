@@ -1,0 +1,113 @@
+body{
+    background: url(img/hero.jpg) fixed;
+    background-size: cover;
+}
+
+.card{
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(245, 177, 52, 0.8);
+}
+img.card-img-top{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+img.card-img-bottom{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.btn{
+    border-color:rgba(212, 127, 28, 0.822);
+    background-color: rgba(212, 127, 28, 0.822);
+}
+.btn:hover{
+    border-color:rgba(172, 98, 13, 0.89);
+    background-color: rgba(172, 98, 13, 0.89);
+}
+hr{
+    height:10px;
+    background-color:rgba(212, 127, 28, 20%);
+    width: 1000px;
+    border: 25px;
+}
+nav{
+    background-color:rgba(255, 255, 255, 0.479);
+}
+
+.about-start,
+.about-end {
+    color: white;
+    background: url(img/footer.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.bg-quote {
+    background: url(img/quote.jpg) top right no-repeat;
+      background-color: rgba(0, 0, 0, 0);
+      background-size: auto;
+    background-size: contain;
+  }
+
+.bg-primary{
+    background-color: black;
+}
+
+.team-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(img/team.jpg) bottom center no-repeat;
+    background-size: cover;
+    height: 90px;
+    padding: 0 30px;
+    right: 45px;
+    left: 45px;
+    bottom: -45px;
+    transition: .5s;
+    z-index: 1;
+}
+
+.team-item:hover .team-text {
+    height: 100%;
+    bottom: 0;
+}
+
+
+
+.contact-item {
+    background: url(img/contact.jpg) top center no-repeat;
+    background-size: cover;
+    transition: .2s;
+}
+
+.contact-item:hover {
+    background: url(img/contact.jpg) bottom center no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #8CC641;
+}
+
+.contact-item .contact-icon {
+    margin-top: -50px;
+    width: 100px;
+    height: 100px;
+    color: var(--secondary);
+    background: #FFFFFF;
+    transform: rotate(-45deg);
+}
+
+.contact-item .contact-icon div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    transition: .5s;
+}
